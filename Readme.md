@@ -14,6 +14,7 @@ We assumed you already have working android emulator / ios simulator in order to
 - install dependencies by run command `yarn`
 - run web app by `yarn web`
 - run android app by `yarn android`
+- before run ios app, we need to install [pod/cocoapod](https://brewinstall.org/install-cocoapods-on-mac-with-brew/) dependencies first, goto `ios` dir and run `pod install`
 - run ios app by `yarn ios`
 - run test by `yarn test`
 
