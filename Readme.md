@@ -10,7 +10,7 @@
 
 We assumed you already have working android emulator / ios simulator in order to run mobile app
 
-- clone the repo my react-native-app name is `TestReactNative` so please give alias as this command `git clone https://github.com/theredfoxfire/react-hybrid-app.git TestReactNative`
+- clone the repo, my react-native-app name is `TestReactNative` so please give alias as this command `git clone https://github.com/theredfoxfire/react-hybrid-app.git TestReactNative`
 - install dependencies by run command `yarn`
 - run web app by `yarn web`
 - run android app by `yarn android`
