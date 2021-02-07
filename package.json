@@ -1,0 +1,46 @@
+{
+  "name": "TestReactNative",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "web": "yarn format && react-scripts start",
+    "test": "jest",
+    "lint": "eslint .",
+    "format": "prettier --write ./src"
+  },
+  "dependencies": {
+    "react": "16.13.1",
+    "react-dom": "^17.0.1",
+    "react-native": "0.63.4",
+    "react-native-web": "^0.14.13",
+    "typescript": "^4.1.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/runtime": "^7.12.13",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "eslint": "^7.19.0",
+    "metro-react-native-babel-preset": "^0.65.0",
+    "prettier": "2.2.1",
+    "react-scripts": "^4.0.2",
+    "react-test-renderer": "16.13.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
