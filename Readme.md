@@ -10,6 +10,7 @@
 
 We assumed you already have working android emulator / ios simulator in order to run mobile app
 
+- clone the repo `git clone https://github.com/theredfoxfire/react-hybrid-app.git`
 - install dependencies by run command `yarn`
 - run web app by `yarn web`
 - run android app by `yarn android`
